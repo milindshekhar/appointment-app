@@ -1,0 +1,27 @@
+
+.container {
+    width: 100%; /* Make the container full width */
+    height: 100vh; /* Make the container full height */
+    background: linear-gradient(135deg, #4285F4 0%, #34A853 50%, #FBBC05 75%, #EA4335 100%); /* Gradient background similar to Google Ads */
+    border-radius: 8px; /* Increased border radius for smoother corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Enhanced shadow for better depth */
+    padding: 24px; /* Increased padding for more spacing inside the container */
+   
+    transition: box-shadow 0.3s ease; /* Added transition for a smoother hover effect */
+  
+}
+
+.container:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Added hover effect for better interactivity */
+}
+body {
+   
+    margin: 0; /* Remove default margin */
+    font-family: Arial, sans-serif; /* Set default font */
+}
+html, body {
+    height: 100%; /* Ensure the body and html take full height */
+    background: linear-gradient(135deg, #4285F4 0%, #34A853 50%, #FBBC05 75%, #EA4335 100%); /* Gradient background similar to Google Ads */
+    margin: 0; /* Remove default margin */
+    font-family: Arial, sans-serif; /* Set default font */
+}
